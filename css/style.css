@@ -1,0 +1,113 @@
+* {  
+    padding:0;
+    margin :0;
+    font-family:'Roboto',Verdana;
+    
+}
+
+.main{
+    padding: 20px;
+    margin: 25px;
+    display:grid;
+    grid-template-columns: 4fr 1fr; /*fraccion de espacio libre*/
+   
+}
+
+.nav {
+    box-shadow: 1px 1px 5px 2px #000000;
+    padding:20px;
+    color:rgb(248, 248, 248);
+    background-color: rgb(20, 32, 32);
+}
+.header-list{
+    text-align: center;
+    box-shadow: 1px 1px 5px 2px #000000;
+    padding: 10px 10px 20px 50px ;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.945)
+}
+.order{
+    border:none;
+    padding: 5px;
+    margin: 5px auto;
+    box-shadow: 0px 0px 0px 0.5px #636262;
+    background-color:rgb(189, 189, 189)
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 1px 1px 5px 2px #000000;
+    padding: 50px 50px 50px 50px ; border-style: none;
+    background-color: rgba(0, 0, 0, 0.418);
+    color:white
+}
+.list{ 
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:20px;
+    background-image: url(https://i.pinimg.com/564x/10/3e/3e/103e3e4216452f34041a26b82dca5fd2.jpg);
+    
+
+}
+
+
+.card-title{
+    text-align: center;
+    grid-column: x0/x4;
+    grid-row: y0;
+   color: white;
+
+   
+}
+.date{
+    background-color: rgba(63, 65, 65, 0.795);
+    box-shadow: 0px 0px 0px 0.5px #000000;
+    color:white
+
+}
+.card {
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3] 1fr;
+    grid-template-rows: [y0]2fr [y1]1fr;
+    padding: 5px;
+    margin: 5px auto;
+    color:white;
+    text-align: center;
+    box-shadow: 1px 1px 5px 2px #000000;
+    padding: 5px 5px 20px 50px ; border-style: none;
+    background-color:rgba(0, 0, 0, 0.513) ;
+    }
+
+
+    
+    .card-button-add {
+        
+       
+        grid-column: x1 / x2;
+        grid-row: y1;
+        text-align: center;
+        box-shadow: 1px 1px 5px 2px #000000;
+        padding: 5px 5px 5px 50px ; border-style: none;
+        background-color: darkslategrey;
+        
+
+    }
+    .card-button-remove {
+
+        grid-column: x2 / x2;
+        grid-row: y1;
+        text-align: center;
+    box-shadow: 1px 1px 5px 2px #000000;
+    padding: 5px 5px 5px 50px ; border-style: none;
+    background-color: darkslategrey;
+    font: bold;
+
+    }
+    .buttonn{ 
+        text-align: center;
+        box-shadow: 1px 1px 5px 2px #000000;
+        padding: 5px 5px 5px 5px ; border-style: none;
+        background-image: url(https://i.pinimg.com/564x/10/3e/3e/103e3e4216452f34041a26b82dca5fd2.jpg);
+    }
